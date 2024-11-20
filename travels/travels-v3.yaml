@@ -33,6 +33,7 @@ spec:
       labels:
         app: travels
         version: v3
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: travels
