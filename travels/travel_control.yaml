@@ -15,6 +15,7 @@ spec:
       labels:
         app: control
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: control
