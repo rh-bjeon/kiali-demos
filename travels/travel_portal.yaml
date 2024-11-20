@@ -33,6 +33,7 @@ spec:
       labels:
         app: voyages
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: voyages
@@ -107,6 +108,7 @@ spec:
       labels:
         app: viaggi
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: control
@@ -181,6 +183,7 @@ spec:
       labels:
         app: travels
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: control
