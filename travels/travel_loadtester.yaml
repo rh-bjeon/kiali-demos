@@ -22,6 +22,7 @@ spec:
       labels:
         app: loadtester
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       serviceAccountName: loadtester
       containers:
