@@ -55,6 +55,7 @@ spec:
       labels:
         app: mysqldb
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: mysqldb
@@ -114,6 +115,7 @@ spec:
       labels:
         app: cars
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: cars
@@ -200,6 +202,7 @@ spec:
       labels:
         app: discounts
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: discounts
@@ -273,6 +276,7 @@ spec:
       labels:
         app: flights
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: flights
@@ -359,6 +363,7 @@ spec:
       labels:
         app: hotels
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: hotels
@@ -427,6 +432,7 @@ spec:
       labels:
         app: insurances
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: insurances
@@ -513,6 +519,7 @@ spec:
       labels:
         app: travels
         version: v1
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
         - name: travels
