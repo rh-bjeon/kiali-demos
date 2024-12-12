@@ -46,4 +46,4 @@ spec:
             - name: SLEEP
               value: "5"
             - name: TRAVELS_AGENCY_SERVICE
-              value: "http://travels.travel-agency:8000"
+              value: "http://travels.travel-agency.svc.cluster.local:8000"
